@@ -4,6 +4,8 @@
 # 🛡️ ShardLock v1.0
 ### *Caveau File Avanzato con AES-GCM e Shamir's Secret Sharing*
 
+![Screenshot TUI ShardLock](screenshot.png)
+
 **ShardLock** è uno strumento CLI ad alta sicurezza, multipiattaforma, progettato per eliminare i singoli punti di fallimento nell’archiviazione dei dati. Combina la **cifratura autenticata AES-256-GCM** con lo **Shamir's Secret Sharing (SSS)** per frammentare la chiave di decifratura in più **frammenti matematici** (*shard*).
 
 ---
