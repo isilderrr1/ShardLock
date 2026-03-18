@@ -49,6 +49,16 @@ If you don't have Python installed, you can download the standalone version:
 
 *Note: As this is an unsigned binary, Windows Defender or Antivirus software might flag it. This is a common false positive for PyInstaller applications. You can safely allow its execution.*
 
+### 🍎 Linux & macOS Setup
+ShardLock is natively compatible with Unix-based systems. Since standalone binaries are currently provided only for Windows, Linux and macOS users should follow the source installation:
+
+* **Python 3.13:** Ensure you have the latest Python version installed. 
+    * *Ubuntu/Debian:* `sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt install python3.13 python3.13-venv`
+    * *macOS:* `brew install python@3.13`
+* **Permissions:** You may need to grant execution permissions to the scripts after cloning.
+
+Once Python is ready, proceed to the **Prerequisites** section below to install Poetry and dependencies.
+
 ### Prerequisites
 
 - **Python 3.13+**
