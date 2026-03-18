@@ -39,6 +39,14 @@ graph TD
 
 ## 🛠️ Installation & Usage
 
+## 📦 Standalone Executable (Windows)
+If you don't have Python installed, you can download the standalone version:
+1. Go to the [Releases](https://github.com/isilderrr1/ShardLock/releases) section.
+2. Download `ShardLock.exe`.
+3. Run it directly from your terminal or double-click to start.
+
+*Note: As this is an unsigned binary, Windows Defender or Antivirus software might flag it. This is a common false positive for PyInstaller applications. You can safely allow its execution.*
+
 ### Prerequisites
 
 - **Python 3.13+**
