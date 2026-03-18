@@ -4,6 +4,8 @@
 # 🛡️ ShardLock v1.0
 ### *Advanced File Vault with AES-GCM & Shamir's Secret Sharing*
 
+![ShardLock TUI Screenshot](screenshot.png)
+
 **ShardLock** is a high-security, cross-platform CLI tool designed to eliminate single points of failure in data storage. It combines **AES-256-GCM** authenticated encryption with **Shamir's Secret Sharing (SSS)** to fragment the decryption key into multiple mathematical **shards**.
 
 ---
