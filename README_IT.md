@@ -49,6 +49,16 @@ Se non hai Python installato, puoi scaricare la versione pronta all'uso:
 
 *Nota: Essendo un binario non firmato, Windows Defender o altri Antivirus potrebbero segnalarlo come potenzialmente pericoloso. È un comune "falso positivo" per le applicazioni create con PyInstaller. Puoi procedere tranquillamente con l'esecuzione.*
 
+### 🍎 Configurazione Linux e macOS
+ShardLock è nativamente compatibile con i sistemi basati su Unix. Poiché gli eseguibili standalone (`.exe`) sono forniti attualmente solo per Windows, gli utenti Linux e macOS devono procedere con l'installazione da sorgente:
+
+* **Python 3.13:** Assicurati di avere installata l'ultima versione di Python.
+    * *Ubuntu/Debian:* `sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt update && sudo apt install python3.13 python3.13-venv`
+    * *macOS (Homebrew):* `brew install python@3.13`
+* **Permessi:** Su alcuni sistemi Linux, potrebbe essere necessario concedere i permessi di esecuzione agli script dopo il download.
+
+Una volta configurato Python, procedi alla sezione **Prerequisites** qui sotto per installare Poetry e le dipendenze del progetto.
+
 ### Prerequisiti
 
 - **Python 3.13+**
