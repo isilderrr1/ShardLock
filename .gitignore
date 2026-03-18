@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Build e Distribuzione (IMPORTANTE)
+# Non carichiamo l'EXE, va nelle "Releases", non nel codice
+dist/
+build/
+*.spec
+
+# File di test e dati sensibili locali
+segreto.txt
+segreto.txt.slock
+segreto_shares/
+*.slock
+*.shard
+
+# Editor e System
+.vscode/
+.idea/
+.DS_Store
+
+# File temporanei di Microsoft Word (ne vedo uno nello screenshot!)
+~$*.docx
