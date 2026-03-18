@@ -58,7 +58,7 @@ Se non hai Python installato, puoi scaricare la versione pronta all'uso:
 
 ```bash
 # Clona il repository
-git clone https://github.com/your-username/ShardLock.git
+git clone https://github.com/isilderrr1/ShardLock.git
 cd ShardLock
 
 # Installa le dipendenze
